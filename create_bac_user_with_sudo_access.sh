@@ -2,7 +2,7 @@
 
 MY_SHELL=$( which bash )
 
-/usr/sbin/useradd -c 'Brian Carlsen <bcarlsen at westcoastinformatics.com>' -s ${MY_SHELL} -m bac
+/usr/sbin/useradd -c 'Nuno Marques <nmarques at westcoastinformatics.com>' -s ${MY_SHELL} -m bac
 cat >/etc/sudoers.d/bac-ALL <<EOF
 bac     ALL=(ALL:ALL) NOPASSWD: ALL
 EOF
